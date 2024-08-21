@@ -1,8 +1,8 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "Montana-Roleplay",
+    "preductname": "Montana Roleplay",
     "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "description": "Lanceur Officiel du Projet Roleplay Montana",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, Inc.",
