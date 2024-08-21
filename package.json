@@ -5,9 +5,9 @@
     "description": "Lanceur Officiel du Projet Roleplay Montana",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "MontanaRoleplay",
+        "email": "contact@montana.fr",
+        "url": "https://montana.datahosting.fr/"
     },
     "url": "http://launcher.luuxis.fr",
     "scripts": {
