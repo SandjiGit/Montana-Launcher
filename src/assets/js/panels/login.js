@@ -36,8 +36,8 @@ class Login {
 
         microsoftBtn.addEventListener("click", () => {
             popupLogin.openPopup({
-                title: 'Connexion',
-                content: 'Veuillez patienter...',
+                title: 'Connexion en cours...',
+                content: 'Saviez vous que les montagnes couvrent environ 22% de la surface terrestre et abritent une riche diversité de vie sauvage.',
                 color: 'var(--color)'
             });
 
