@@ -22,13 +22,6 @@ class Home {
     }
 
     socialLick() {
-        let socials = document.querySelectorAll('.social-block')
-
-        socials.forEach(social => {
-            social.addEventListener('click', e => {
-                shell.openExternal(e.target.dataset.url)
-            })
-        });
     }
 
     async instancesSelect() {

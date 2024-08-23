@@ -1,7 +1,7 @@
 {
     "name": "Montana-Roleplay",
     "preductname": "Montana Roleplay",
-    "version": "2.0.7",
+    "version": "3.0.1",
     "description": "Lanceur Officiel du Projet Roleplay Montana",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@montana.fr",
         "url": "https://montana.datahosting.fr/"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://montana.datahosting.fr/launcher/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",

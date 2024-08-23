@@ -107,7 +107,7 @@ input::-webkit-inner-spin-button {
 .popup-tab {
     width: 40%;
     padding: 15px;
-    background: var(--background);
+    background: #00000070;
     border-radius: 15px;
     z-index: 10;
 }
@@ -117,6 +117,7 @@ input::-webkit-inner-spin-button {
     font-size: 2rem;
     border-bottom: solid 4px var(--color);
     margin-bottom: 1rem;
+    color: #fff;
 }
 
 .popup-options {

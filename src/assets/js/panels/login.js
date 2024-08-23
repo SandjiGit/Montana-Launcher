@@ -35,12 +35,6 @@ class Login {
         loginHome.style.display = 'block';
 
         microsoftBtn.addEventListener("click", () => {
-            popupLogin.openPopup({
-                title: 'Connexion en cours...',
-                content: 'Saviez vous que les montagnes couvrent environ 22% de la surface terrestre et abritent une riche diversité de vie sauvage.',
-                color: 'var(--color)'
-            });
-
             ipcRenderer.invoke('Microsoft-window', this.config.client_id).then(async account_connect => {
                 if (account_connect == 'cancel' || !account_connect) {
                     popupLogin.closePopup();
