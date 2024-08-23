@@ -9,7 +9,7 @@ body {
     padding: 0;
     user-select: none;
     color: var(--color);
-    font-family: 'Poppins';
+    font-family: "Inter", sans-serif;
     font-weight: bolder;
 }
 

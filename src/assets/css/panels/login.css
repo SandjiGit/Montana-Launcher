@@ -7,11 +7,11 @@
 
 .login-tabs {
     position: absolute;
-    padding: 15px;
-    background: var(--background);
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.356);
     border-radius: 15px;
     text-align: center;
-    min-width: 40%;
+    min-width: 30%;
 }
 
 .login-home,
@@ -21,20 +21,36 @@
     display: none;
 }
 
+.login-title {
+    font-size: 2rem;
+    font-family: "Poppins";
+    color: #ffffffe3;
+}
+
 .login-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: italic;
     font-size: 1.3rem;
+    color: #ffffffd3;
 }
 
 .connect,
 .cancel {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font: inherit;
     background: none;
-    color: var(--color);
-    border: solid 4px var(--element-color);
+    color: #ffffff;
+    border: solid 4px #ffffff;
     border-radius: 10px;
     padding: 0.3rem 4rem;
-    font-size: inherit;
-    font-weight: bold;
-    margin: 15px 10px;
+    margin: 20px 10px;
+}
+
+.connect:hover, .cancel:hover {
+    background: #ffffff;
+    color: #181818;
 }
 
 .input-login .email,

@@ -94,12 +94,22 @@
 }
 
 .titre-tab-new {
-    margin-top: 1rem;
-    font-size: 2rem;
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.5);
+    font-family: "Poppins";
+    margin-top: 5rem;
+    font-size: 5rem;
     padding: 0.5rem 1rem;
-    border-radius: 2rem;
-    background: var(--background-transparent);
-    color: var(--color);
+    color: rgba(255,255,255,0.85);
+}
+
+.description-tab-new {
+    font-family: "Inter", sans-serif;
+    margin-top: 5rem;
+    font-size: 1rem;
+    font-style: italic;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-align: center;
 }
 
 .news-list {
@@ -183,7 +193,7 @@
 
 .social-block {
     display: flex;
-    background: var(--background-transparent);
+    background: #00000070;
     width: 90px;
     height: 90px;
     margin-bottom: 1rem;
@@ -199,7 +209,11 @@
     background-repeat: no-repeat;
     height: 55%;
     width: 55%;
-    filter: var(--svg-color);
+}
+
+.social-block:hover {
+    border-bottom: solid #fff;
+    border-radius: 2px;
 }
 
 /*******************************************************************************
@@ -214,7 +228,7 @@
     align-items: center;
     width: 100%;
     height: 90px;
-    background: var(--background-transparent);
+    background: #0000004b;
 }
 
 .player-options {
@@ -264,7 +278,7 @@
     border: none;
     border-radius: 10px;
     background: none;
-    color: var(--color);
+    color: #fff;
     font-size: 2rem;
     font-weight: bolder;
     padding: 0 1.5rem;
@@ -297,20 +311,24 @@
     text-align: center;
 }
 
+.info-starting-game-text {
+    color: #fff
+}
+
 .progress-bar {
     appearance: none;
-    height: 10px;
+    height: 15px;
     margin: 0.5rem 0;
 }
 
 .progress-bar::-webkit-progress-bar {
-    background-color: var(--background);
-    border: solid 1px var(--element-color);
+    background-color: #0000004b;
+    border: solid 2px #ffffff;
     border-radius: 10px;
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: var(--element-color);
+    background-color: #ffffffa2;
     border-radius: 10px;
 }
 
